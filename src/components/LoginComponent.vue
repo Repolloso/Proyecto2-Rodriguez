@@ -76,11 +76,10 @@
 
         localStorage.clear();
 
-        console.log(data)
-
         if (data) {
           localStorage.setItem("isLogged", "true");
-
+          localStorage.setItem("user", JSON.stringify(data));
+          
           if (data?.isAdmin) {
             localStorage.setItem("isAdmin", "true");
             this.$router.push("/admin");
@@ -97,8 +96,6 @@
 
     }
 }
-
-
 </script>
 
 <style scoped>

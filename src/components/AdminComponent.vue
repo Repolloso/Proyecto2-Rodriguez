@@ -1,7 +1,7 @@
 <template lang="html">
 
   <section class="admin-component container">
-    <h1 class="text-center mb-5 mt-3">Edit Products (admin)</h1>
+    <h1 class="text-center mb-5 mt-5">Edit Products (admin)</h1>
 
     <a href="/admin/create" class="btn btn-success mb-3">Create</a>
 
